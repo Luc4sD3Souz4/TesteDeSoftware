@@ -1,0 +1,38 @@
+.container{
+
+	width: 100%
+	height:auto; 
+}
+
+.conta{
+	   
+	background-color: rgba(10,23,55,0.7);
+	padding: 150px;
+	height: auto;
+}
+
+.box{
+    
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+}	
+
+body {
+	margin: 0;
+	height: auto;
+}	
+
+fieldset{
+
+	width: 100%;
+	height: auto;
+	font-family: sans-serif;
+}
+
+.fulfill{
+
+	color: white;
+	background-color: #17a2b8;
+	font-family: sans-serif;
+}
