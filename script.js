@@ -31,7 +31,7 @@ function bini() {
             break;
             
         case "exponenciacao":
-            alert(parseFloat(first.value) ^ parseFloat(second.value));
+            alert(parseFloat(first.value) ** parseFloat(second.value));
             break;
     }
     
