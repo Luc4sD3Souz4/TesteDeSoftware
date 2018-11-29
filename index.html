@@ -21,7 +21,10 @@
                                 <option value="exponenciacao">Exponenciação</option>
                             </select><br><br>
                             
-                            <button value="1" onclick="bini()"> Enviar </button>
+                            <input type="button" value=" Calcular " value="Resposta" onclick="exibir(bini(document.getElementById('first').value, document.getElementById('second').value,document.getElementById('campo').value))">
+                        
+                            <input type="text" id="campo_resposta">
+                            
                     </form>
                 </div>
             </div>
@@ -31,4 +34,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
     <script src="script.js"></script>
+    
+    
+    
+    <script>
+    function exibir(resposta){
+            
+            document.getElementById("campo_resposta").value=resposta;
+            
+        }
+        </script>
 </html>
